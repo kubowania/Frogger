@@ -4,7 +4,7 @@ A retro grid-based game in vanilla JavaScript, HTML and CSS
 
 Frogger is a 1981 arcade game developed by Konami and originally published by Sega. The game was originally going to be titled "Highway Crossing Frog," but the executives at Sega felt it did not capture the true nature of the game and was changed simply to "Frogger". The object of the game is to direct a frog to its home by crossing a busy road and navigating a river by jumping on logs. By 2005, Frogger in its various home video game incarnations had sold 20 million copies worldwide, including 5 million in the United States. The game found its way into popular culture, including television and music.
 
-It is a timed gird based game. In this repo, I will be putting extra focus on the 'switch' use case. If you want to learn how to use switches effectively, please have a look at my code.
+It is a timed grid-based game. In this repo, I will be putting extra focus on the 'switch' use case. If you want to learn how to use switches effectively, please have a look at my code.
 
 
 ### What inbuilt functions are we going to focus on?
