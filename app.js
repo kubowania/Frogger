@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentIndex = 76
   let currentTime = 20
   let timerId
+  console.log("it is good to be back in the game.")
 
   //move the Frog
   function moveFrog(e) {
@@ -165,7 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   //rules for frog to lose
   function lose() {
-    if ((currentTime === 0 ) || (squares[currentIndex].classList.contains('c1')) 
+    if ((currentTime === 0 ) || (squares[currentIndex].classList.contains('c1'))
     || (squares[currentIndex].classList.contains('l5'))
     || (squares[currentIndex].classList.contains('l4'))
     ) {
@@ -175,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.removeEventListener('keyup', moveFrog)
     }
   }
-    
+
   //all the functions that move pieces
   function movePieces() {
     currentTime--
